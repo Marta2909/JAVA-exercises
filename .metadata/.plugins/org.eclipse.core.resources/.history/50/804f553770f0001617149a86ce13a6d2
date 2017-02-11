@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class SimpleOutput {
+
+	public static void main(String[] args) {
+		String liczba;
+		Scanner odczyt;
+		do  {
+			odczyt = new Scanner(System.in);
+			liczba = odczyt.nextLine();
+		 System.out.println(liczba);
+		} 
+		while (liczba != "42");
+	}
+}

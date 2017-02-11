@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class SimpleOutput {
+
+	public static void main(String[] args) {
+		Scanner odczyt = new Scanner(System.in);
+		do {
+			System.out.println(odczyt.nextLine());
+		}
+		while (odczyt.nextLine() != "42"); 
+	}
+
+}

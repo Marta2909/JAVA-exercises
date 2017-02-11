@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class SimpleOutput {
+
+	public static void main(String[] args) {
+		Scanner odczyt; 
+		do {
+			Scanner scanner = odczyt = new Scanner(System.in);
+			System.out.println(odczyt.nextLine());
+		}
+		while (odczyt.nextLine() != "42"); 
+	}
+
+}
